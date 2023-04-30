@@ -1,0 +1,130 @@
+.container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  padding: 0 0.1rem;
+}
+
+.top-view {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3rem;
+  background-color: rgb(255, 255, 255);
+  z-index: 999999;
+}
+
+.top-title {
+  margin-left: 1rem;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 3rem;
+}
+
+.search-button {
+  position: absolute;
+  right: 4rem;
+  top: 0.8rem;
+  width: 2rem;
+  height: 2rem;
+}
+
+.search-img {
+  width: 100%;
+  height: 100%;
+}
+
+.hot-button {
+  position: absolute;
+  right: 1rem;
+  top: 0.8rem;
+  width: 2rem;
+  height: 2rem;
+}
+
+.search-input {
+  position: absolute;
+  right: 6rem;
+  top: 0.9rem;
+  width: 10rem;
+  height: 1rem;
+  background-color: rgba(158, 150, 150, 0.377);
+  border-radius: 1rem;
+  padding: 0 1rem;
+}
+
+.waterfall-container {
+  width: 100%;
+  padding-top: 3rem;
+}
+
+.waterfall-item {
+  position: relative;
+  width: calc(100% - 2rem);
+  height: 12rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  border-radius: 1rem;
+  box-shadow: 1px 3px 3px 0px #999
+}
+
+.avatar {
+  width: 3rem;
+  height: 3rem;
+  margin-top: 2rem;
+  margin-left: 1rem;
+  border-radius: 50%;
+  background-color: rgb(90, 86, 86);
+}
+
+.user-name {
+  position: absolute;
+  left: 5rem;
+  top: 0rem;
+}
+
+.easy-info {
+  position: absolute;
+  left: 5rem;
+  top: 1.5rem;
+  color: #999;
+}
+
+.title {
+  position: absolute;
+  left: 1rem;
+  top: 4rem;
+  font-weight: 700;
+  font-size: 23px;
+}
+
+.context-view {
+  position: absolute;
+  left: 1rem;
+  top: 6rem;
+}
+
+.special-mark {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  font-size: 30px;
+  color: #999;
+}
+
+.bottom-content {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+}
+
+.bottom-mark {
+  width: 1rem;
+  height: 1rem;
+}
+
+.info-num {
+  margin-left: 1rem;
+  margin-right: 2rem;
+}

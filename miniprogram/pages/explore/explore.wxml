@@ -1,0 +1,20 @@
+<view class="container">
+  <view class="top-view">
+    <text class="top-title">探索</text>
+  </view>
+
+  <!-- banner -->
+  <view class="banner"></view>
+
+  <!-- 探索页面下面的列表 -->
+  <view class="explore-list">
+    <scroll-view type="custom">
+      <view wx:for="{{ exploreList }}" class="explore-item">
+        <image src="{{ item.imgSrc }}" mode="" class="explore-image"/>
+        <text class="explore-title">{{ item.title }}</text>
+        <text class="explore-info">{{ item.messageDetail }}</text>
+        <text class="explore-arrow">></text>
+      </view>
+    </scroll-view>
+  </view>
+</view>

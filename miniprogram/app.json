@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/TimeLine/TimeLine",
+    "pages/explore/explore",
+    "pages/MyMessage/MyMessage",
+    "pages/mine/mine"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/TimeLine/TimeLine",
+        "iconPath": "/images/tabs/fenxiang-black.png",
+        "selectedIconPath": "/images/tabs/fenxiang.png"
+      },
+      {
+        "pagePath": "pages/explore/explore",
+        "iconPath": "/images/tabs/gerenzhongxin-zhihui-black.png",
+        "selectedIconPath": "/images/tabs/gerenzhongxin-zhihui.png"
+      },
+      {
+        "pagePath": "pages/MyMessage/MyMessage",
+        "iconPath": "/images/tabs/xiaoxi-zhihui-black.png",
+        "selectedIconPath": "/images/tabs/xiaoxi-zhihui.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "/images/tabs/shouye-zhihui-black.png",
+        "selectedIconPath": "/images/tabs/shouye-zhihui.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,50 @@
+<view class="container">
+    <!-- 顶部内容 -->
+    <view class="top-view">
+      <text class="top-title">时间线</text>
+      <view wx:if="{{ !showSearch }}" class="search-button" bindtap="clickToSwitch">
+        <image src="../../images/RectangleCopy.png" alt="" class="search-img" />
+      </view>
+      <image src="../../images/tubiaozhutu.png" mode="" class="hot-button" />
+      <input wx:if="{{ showSearch }}" class="search-input" placeholder="请输入搜索内容" type="text"/>
+    </view>
+
+    <!-- 瀑布流主页数据 -->
+    <view class="waterfall-container">
+      <scroll-view type="custom">
+        <view wx:for="{{ waterfallList }}" class="waterfall-item">
+          <!-- 头像区域 -->
+          <view class="avatar"></view>
+          <!-- 用户名称 -->
+          <view class="user-name">
+            <text>{{ item.userName }}</text>
+          </view>
+          <!-- 简略信息 -->
+          <view class="easy-info">
+            <text>{{ item.detailInfo }}</text>
+          </view>
+          <!-- 标题 -->
+          <view class="title">
+            <text>{{ item.title }}</text>
+          </view>
+          <!-- 简略内容 -->
+          <view class="context-view">
+            <text>{{ item.contextView }}</text>
+          </view>
+          <!-- 特殊标记内容 -->
+          <view class="special-mark" wx:if="item.specialMark">
+            <text>{{ item.specialMark }}</text>
+          </view>
+          <!-- 底部内容 -->
+          <view class="bottom-content">
+            <image src="../../images/guanzhu-zhihui.png" mode="" class="bottom-mark"/>
+            <text class="info-num">{{ item.like }}</text>
+            <image src="../../images/pinglun.png" mode="" class="bottom-mark"/>
+            <text class="info-num">{{ item.comment }}</text>
+            <image src="../../images/shoucang.png" mode="" class="bottom-mark"/>
+            <text class="info-num">{{ item.mark }}</text>
+          </view>
+        </view>
+      </scroll-view>
+    </view>
+</view>
