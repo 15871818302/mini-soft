@@ -1,3 +1,19 @@
-<view>
-  <text>3333</text>
+<view class="msg-container">
+  <!-- 顶部内容 -->
+  <view class="top-view">
+      <text class="top-title">时间线</text>
+  </view>
+
+  <!-- 消息队列内容 -->
+  <view class="msg-list">
+    <scroll-view type="custom">
+      <view wx:for="{{ msgList }}" class="msg-item">
+        <view class="msg-avatar"></view>
+        <text class="msg-title">{{ item.title }}</text>
+        <view class="msg-info">
+          <text class="msg-user">{{ item.msgUser }}</text>等2个人有新回复
+        </view>
+      </view>
+    </scroll-view>
+  </view>
 </view>

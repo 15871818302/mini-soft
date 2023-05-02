@@ -1,3 +1,48 @@
-<view>
-  <text>4444</text>
+<view class="user-container">
+  <!-- banner层 -->
+  <view class="banner"></view>
+
+  <!-- 用户信息层 -->
+  <view class="user-info">
+    <!-- 用户头像 -->
+    <view class="user-avatar"></view>
+    <!-- 用户名称 -->
+    <text class="user-name">沈阳狗</text>
+    <!-- 编辑按钮 -->
+    <view class="user-edit">编辑</view>
+    <!-- 用户帖子基本信息 -->
+    <view class="user-article-info">
+      <view class="text-info">
+        <text class="t-title">获赞</text>
+        <text class="t-value">6</text>
+      </view>
+      <view class="text-info">
+        <text class="t-title">帖子</text>
+        <text class="t-value">1</text>
+      </view>
+      <view class="text-info">
+        <text class="t-title">收藏</text>
+        <text class="t-value">0</text>
+      </view>
+      <view class="text-info">
+        <text class="t-title">积分</text>
+        <text class="t-value">134</text>
+      </view>
+    </view>
+    <!-- 列表信息 -->
+    <view class="user-list">
+      <view class="user-item">
+        <view class="info-img"></view>
+        <text class="info-msg">校园地图</text>
+      </view>
+      <view class="user-item">
+        <view class="info-img"></view>
+        <text class="info-msg">通讯录</text>
+      </view>
+      <view class="user-item">
+        <view class="info-img"></view>
+        <text class="info-msg">校历</text>
+      </view>
+    </view>
+  </view>
 </view>
