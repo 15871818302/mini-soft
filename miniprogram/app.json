@@ -3,7 +3,9 @@
     "pages/TimeLine/TimeLine",
     "pages/explore/explore",
     "pages/MyMessage/MyMessage",
-    "pages/mine/mine"
+    "pages/mine/mine",
+    "pages/HotPage/HotPage",
+    "pages/article/article"
   ],
   "window": {
     "backgroundTextStyle": "light",

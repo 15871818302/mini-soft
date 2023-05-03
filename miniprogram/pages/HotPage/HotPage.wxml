@@ -1,18 +1,13 @@
 <view class="container">
     <!-- 顶部内容 -->
     <view class="top-view">
-      <text class="top-title">时间线</text>
-      <view wx:if="{{ !showSearch }}" class="search-button" bindtap="clickToSwitch">
-        <image src="../../images/RectangleCopy.png" alt="" class="search-img" />
-      </view>
-      <image src="../../images/tubiaozhutu.png" mode="" class="hot-button" catchtap="jumpToHotPage" />
-      <input wx:if="{{ showSearch }}" class="search-input" placeholder="请输入搜索内容" type="text"/>
+      <view class="top-title">今日热帖</view>
     </view>
 
     <!-- 瀑布流主页数据 -->
     <view class="waterfall-container">
       <scroll-view type="custom">
-        <view wx:for="{{ waterfallList }}" class="waterfall-item" catchtap="jumpToArticle">
+        <view wx:for="{{ waterfallList }}" class="waterfall-item">
           <!-- 头像区域 -->
           <view class="avatar"></view>
           <!-- 用户名称 -->

@@ -168,26 +168,5 @@ Page({
   onShareAppMessage(opts): WechatMiniprogram.Page.ICustomShareContent {
     console.log(opts.target)
     return {}
-  },
-
-  // 点击搜索按钮隐藏搜索图标，显示搜索框
-  clickToSwitch() {
-    this.setData({
-      showSearch: true
-    })
-  },
-
-  // 跳转到热帖页面
-  jumpToHotPage() {
-    wx.navigateTo({
-      url: "/pages/HotPage/HotPage"
-    })
-  },
-
-  // 跳转到文章页面
-  jumpToArticle() {
-    wx.navigateTo({
-      url: "/pages/article/article"
-    })
   }
 })
