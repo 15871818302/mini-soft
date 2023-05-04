@@ -1,5 +1,37 @@
-<view>
+<view class="article-container">
+  <!-- 顶部内容 -->
+  <view class="top-user">
+    <view class="avatar"></view>
+    <view class="user-info">
+      <view>
+        雷曼
+      </view>
+      <view>
+        2021-12-01, 14:02:31
+      </view>
+    </view>
+  </view>
+
+  <!-- 文章标题 -->
+  <view class="article-title">
+    test Title
+  </view>
+
+  <!-- 文章正文 -->
+  <view class="article-inner">
+    test article test article test article test article test article test article test article test article test article test article test article test article test article test article test article test article test article test article test article test article test article test article test article test article test article test article test article test article test article test article
+  </view>
+
+  <!-- 点赞按钮 -->
+  <view class="like-button">
+    <image src="../../images/guanzhu-zhihui.png" mode="" class="tab-image" />
+    <text>1</text>
+    <image src="../../images/shoucang.png" mode="" class="tab-image" />
+    <text>1</text>
+  </view>
+
+  <!-- 评论区域 -->
   <view>
-    2222
+    
   </view>
 </view>
